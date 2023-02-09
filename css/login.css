@@ -1,0 +1,9 @@
+@import "reset.css";
+/* styles */
+
+body {
+  background-image: url(../asset/svg/Group\ 1208.png);
+  background-size: cover;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}

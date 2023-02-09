@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import "reset.css";
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    body {
+      font-family: "poppins";
+    }
+
+    /* styles */
+
+    .container {
+      display: flex;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    aside {
+      width: 80px;
+      height: 100vh;
+      background-color: var(--main-color);
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    aside i {
+      color: #819dbd;
+    }
+
+    aside .bars {
+      position: absolute;
+      top: 40px;
+    }
+
+    aside .wrapper-icon {
+      height: 360px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    main {
+      width: 100%;
+      padding: 25px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="bars">
+          <a href=""><i class="fa-solid fa-bars fa-lg"></i></a>
+        </div>
+        <div class="wrapper-icon">
+          <a href=""><i class="fa-solid fa-house fa-lg"></i></a>
+          <a href=""><i class="fa-solid fa-barcode fa-lg"></i></a>
+          <a href=""><i class="fa-solid fa-folder fa-lg"></i></a>
+          <a href=""><i class="fa-solid fa-users"></i></a>
+          <a href=""><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+          <a href=""><i class="fa-solid fa-chart-simple fa-lg"></i></a>
+          <a href=""><i class="fa-solid fa-right-from-bracket fa-lg"></i></a>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
